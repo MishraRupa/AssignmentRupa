@@ -1,0 +1,102 @@
+body {
+    /* background-image: url("https://static.vecteezy.com/system/resources/thumbnails/030/679/886/small/teal-texture-high-quality-free-photo.jpg");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: repeat-y;
+    height: 100vh;  
+    width: 100%;*/
+    background-color: rgb(65, 226, 213);
+
+}
+
+.header {
+    /* background-color: grey; */
+    max-width: 50%;
+    display: flex;
+    margin-left: 70%;
+
+    /* max-height: 40vh; */
+}
+
+/* Shared style for all buttons */
+.styled-button {
+    border-radius: 5px;
+     border: 2px white solid;   
+    padding: 4px; 
+    color: white; 
+    font-size: 12px;
+    background-color: rgb(65, 226, 213);
+}
+ #first{
+    width: 121px;
+} 
+/* #second{
+padding-left: 20%;
+} */
+
+body {
+    font-family: Arial, sans-serif;
+}
+.sidebar {
+    /* background-color: #343a40; */
+    color: white;
+    height: 100vh;
+    position: fixed;
+    width: 250px;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+.sidebar .nav-link {
+    color: black;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+.sidebar .nav-link:hover {
+    color: #495057;
+    color: white;
+}
+.main-content {
+    margin-left: 150px;
+    padding: 20px;
+}
+.card {
+    margin-top: 20px;
+    height: 90vh;
+}
+.card-header {
+    font-size: 1.25rem;
+    background-color: #f8f9fa;
+}
+.firstP {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: emoji;
+    color: white;
+    margin-top: -11%;
+}
+.card-body img {
+    border-radius: 25px;
+    width: 100%; /* Makes the image responsive */
+    height: 20vh;
+    max-width: 100%; /* Ensures the image doesn’t overflow */
+    object-fit: cover; 
+}
+.card-body p {
+    font-size: 1rem;
+    color: white;
+    justify-content: center;
+    /* background-color: red; */
+}
+.icon-container {
+    margin-left: 30px; /* Center-aligns the icon inside the container */
+    /* font-size: 50px;    Adjust icon size */
+}
+
+/* .card-body img:hover {
+    opacity: 0.9; /* Reduces image opacity on hover 
+    transition: opacity 0.3s ease;
+} */
